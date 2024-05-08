@@ -3,7 +3,7 @@ then
     sudo dpkg -r discord
 fi
 
-wget -q -cO ddf https://discord.com/api/download?platform=linux&format=deb
+wget -cO -q --show-progress ddf https://discord.com/api/download?platform=linux&format=deb
 wait
 
 sudo dpkg -i ddf
