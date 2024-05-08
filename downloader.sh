@@ -4,5 +4,6 @@ then
 fi
 
 wget -cO ddf https://discord.com/api/download?platform=linux&format=deb
+wait
+
 sudo dpkg -i ddf
-rm ddf wget-log
