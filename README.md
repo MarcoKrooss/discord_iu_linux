@@ -1,4 +1,4 @@
-## Discord Installation & Updater Linux
+## Discord Install & Update Linux
 ### requirements:
 - dpkg (debian package manager)
 - wget
